@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(to right, #4b2903, #000000da)
+
+}
+@font-face {
+    font-family: roman;
+    src: url(../fonts/Roman_New_Times.otf)
+}
+@font-face {
+    font-family: retrosig;
+    src: url(../fonts/RetroSignature.otf)
+}
+@font-face {
+    font-family: mixone;
+    src: url(../fonts/MIXONE.ttf)
+}
+header{
+   
+    background-color: rgba(0, 0, 0, 0.548);
+    height: 50px;
+
+}
+h1{
+    background-image: url(../img/icon.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: center center ;
+    height: 60px;
+    width: 100%;
+    
+}
+h1 a {
+    font-family: roman;
+     color: #da4a8da8
+     ;
+    text-align: left center;
+    font-size: 30px;
+    padding-left: 40px;
+    
+    
+}
+header ul {
+    color: #fff;
+    /* float: left; */
+    font-size: 20px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+       
+}
+header li  a{
+    background-color: #da4a8da8;
+    width: 30px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin: 20px;
+}
+header li a:hover {
+    color: #ffffff;
+    background-color: black;
+    transition: 0.3s;
+}
+
+.articles article{
+    margin-top: 70px;
+    margin-left: 20px;
+      margin-bottom: 100px;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    float: left;
+    padding: 20px;
+   
+}
+.articles article div{
+
+    background-image: url(../img/theatre-hover.jpg);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    border: 4px solid #ffffff8e;
+    
+    background-size: 100%;
+    
+}
+.articles article div:hover{
+    background-image: url(../img/1ac6556d6ccba956ebe5b0362e1c7dd4.jpg);
+transition: 1s;
+}
+.articles h2{
+    font-size: 30px;
+    background: linear-gradient(to right, #ffffff, #803c05da);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: mixone;
+padding-top: 180px;
+text-align: center;
+}
+.articles p a{
+    color: #ffffffb0;
+    font-size: 15px;
+    font-family: serif;
+    background-image: url(../img/lotus_logo.png);
+    background-repeat: no-repeat;
+    background-size: 15%;
+    background-position: right 20px center; 
+    padding-right: 60px; 
+    position: relative;
+   
+}
+.articles:hover p a{
+    text-decoration: underline;
+}
+ .articles .stati2{
+
+    background-image: url(../img/soulmate1.jpg);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    border: 3px solid #f9faff81;
+    
+    background-size: 100%;
+    
+}
+ .articles .stati2:hover{
+    background-image: url(../img/soulmate2.jpg);
+transition: 1s;
+}
+
+.articles .stati3{
+
+    background-image: url(../img/nana1.jpg);
+    background-repeat: no-repeat;
+    background-position: center -30px;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    border: 3px solid #ffffff81;
+    background-size: 100%;
+    
+}
+ .articles .stati3:hover{
+    background-image: url(../img/nana2.jpg);
+transition: 1s;
+}
+
+.articles .stati4{
+
+    background-image: url(../img/better_days.jpg);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    border: 3px solid #f9faff81;
+    background-size: 100%;
+    
+}
+ .articles .stati4:hover{
+    background-image: url(../img/better-days2.jpg);
+transition: 1s;
+}
+.articles .stati5{
+
+    background-image: url(../img/charlie1.jpg);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    border: 3px solid #f9faff81;
+    background-size: 100%;
+    
+}
+ .articles .stati5:hover{
+    background-image: url(../img/charlie2.jpg);
+transition: 1s;
+}
+.articles .stati6{
+
+    background-image: url(../img/uptown-girls1.jpg);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    border: 3px solid #f9faff81;
+    background-size: 100%;
+    
+}
+ .articles .stati6:hover{
+    background-image: url(../img/uptown-girls2.jpg);
+transition: 1s;
+}
+
+.articles .stati7{
+
+    background-image: url(../img/arcane1.jpg);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    border: 3px solid #f9faff81;
+    background-size: 100%;
+    
+}
+ .articles .stati7:hover{
+    background-image: url(../img/arcane2.jpg);
+transition: 1s;
+}
+
+.articles .stati8{
+
+    background-image: url(../img/myLibNotes1.jpg);
+    background-repeat: no-repeat;
+    background-position: center -20px;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    border: 3px solid #f9faff81;
+    background-size: 100%;
+    
+}
+ .articles .stati8:hover{
+    background-image: url(../img/myLibNotes2.jpg);
+transition: 1s;
+}
